@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+html,
+body{
+	min-height:100%;
+}
+.content{
+	width:50%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	
+}
+.register{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.inputContent{
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.inputContent div{
+	height:60px;
+}
+.register input{
+	height:50px;
+}
+.passwordContent{
+	width:100%;
+	width:330px;
+}
+.userName{
+	margin-bottom: 10px;
+}
+.userName .first-name{
+	width: 330px;
+}
+.userName .second-name{
+	width: 330px;
+}
+.register button{
+	height:30px;
+	width:100px;
+	margin-left:70px;
+	margin-right:60px;
+}
+.registerButton{
+	margin-left:auto;
+	margin-right:auto;
+	height:50px;
+	margin-top:20px;
+}
+.gender{
+	height:30px !important;
+}
+.gender form{
+	height:30px;
+	margin-top:10px;
+}
+.gender input{
+	height:15px;
+}
+.female{
+	display:inline;
+	margin-left:0px !important;
+	margin-right: 70px;
+}
+.gender h4{
+	margin-left:10px;
+}
+.male{
+	display:inline;
+}
+h4{
+	display:inline;
+}
+.stars input{
+	height:15px;
+}
+.stars form{
+	height:30px;
+	margin-top:10px;
+}
+
+h1{
+    text-align:center;
+}
+

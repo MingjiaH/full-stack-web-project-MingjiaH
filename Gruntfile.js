@@ -21,7 +21,7 @@ module.exports = function(grunt) {
       }
     },
     jshint: {
-      files: ['Gruntfile.js', '<%= srcFolder %>/public/js/**/*.js', '<%= testFolder %>/public/js/**/*.js'],
+      files: ['Gruntfile.js', '<%= srcFolder %>/public/js/basic/*.js', '<%= testFolder %>/public/js/basic/*.js'],
       options: {
         globals: {
           jQuery: true,

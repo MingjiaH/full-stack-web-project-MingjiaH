@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+html,
+body{
+	min-height:100%;
+}
+.topTitle{
+	height:30px;
+	width:100%;
+	background-color:black;
+}
+.logo{
+	display:inline;
+	color:black;
+}
+.logo img{
+	width:30px;
+	height: 30px;
+    
+}
+.signIn{
+	display:inline;
+	float:right;
+	margin-right:30px;
+}
+.signUp{
+	display:inline;
+	float:right;
+	margin-right:30px;
+}
+.background{
+	height:270px;
+	width:100%;
+	background-image:url("../img/exo-lotto.jpg");
+}
+.carousel-inner{
+	height: 350px;
+}
+.content{
+	max-width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	margin-bottom: 100px;
+}
+.container{
+	max-width:80%;
+	height:300px;
+	margin-bottom: 50px;
+}
+.box{
+	margin-top: 80px;
+} 
+.carousel{
+	margin-bottom: 60px;
+}
+img{
+	max-width: 95%;
+}
+.pages{
+	text-align: center;
+}
+

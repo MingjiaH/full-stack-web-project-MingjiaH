@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+.content{
+	max-width:80% !important;
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	margin-bottom: 100px;
+}
+.news-image{
+	height:200px;
+}
+.pages{
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.container{
+	max-width: inherit;
+}
+.col-md-8{
+	max-width: 80%;
+}
