@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+
+   <xs:element name="subscription">
+     <xs:complexType>
+        <xs:sequence>
+            <xs:element name="news" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="newsId" type="UUID" />
+                        <xs:element name="userId" type="UUID" />
+                        <xs:element name="firstTitle" type="xs:string" />
+                        <xs:element name="secondTitle" type="xs:string" />
+                        <xs:element name="content" type="xs:string" />
+                        <xs:element name="firstTopic" type="xs:string" />
+                        <xs:element name="secondTopic" type="xs:string" />
+                        <xs:element name="thirdTopic" type="xs:string" />
+                        <xs:element name="picUrl" type="xs:string" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+
+
+<xs:simpleType name="UUID">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="[a-zA-Z0-9-]{36}"/>
+    </xs:restriction>
+</xs:simpleType>
+
+</xs:schema>

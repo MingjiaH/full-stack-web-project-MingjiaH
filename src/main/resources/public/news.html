@@ -1,135 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="stylesheets/news.css">
-<link rel="stylesheet" href="stylesheets/homepage.css">
-<link rel="stylesheet" href="stylesheets/bootstrap-3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="stylesheets/AdminLTE.min.css">
-<link rel="stylesheet" href="stylesheets/_all-skins.min.css">
+	<meta charset="UTF-8">
+	
 
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap/bootstrap.min.js"></script>
-<title>News</title>
+	<link rel="stylesheet" href="stylesheets/news.css">
+	<link rel="stylesheet" href="stylesheets/homepage.css">
+	<link rel="stylesheet" href="stylesheets/bootstrap-3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheets/AdminLTE.min.css">
+	<link rel="stylesheet" href="stylesheets/_all-skins.min.css">
+
+
+
+	
+	<title>News</title>
 </head>
 <body>
-  <div class="topTitle">
-    <div class="logo"><img src="img/logo.png" alt=""/></div>
-    <div class="signIn"><a href="" target="_blank">SignIn</a></div>
-    <div class="signUp"><a href="signUp.html" target="_blank">Register</a></div>
-  </div>
-  <div class="background">
-  </div>
-  <div class="navigator">
-    <ul class="nav nav-tabs">
-	<li><a href="homepage.html">Home</a></li>
-	<li class="active"><a href="#">News</a></li>
-	<li><a href="vote.html">Voting</a></li>
-	<li><a href="calendar.html">Calendar</a></li>
-    </ul>
-  </div>
-  <div class="content">
-    <div class="row clearfix">
-		<div class="col-md-8 column">
-		  <div class="first">
-		  	<div class="page-header">
-				<h1>
-					IOI <small>Final Stage</small>
-				</h1>
-			</div><img alt="140x140" src="img/ioi.jpg" class="news-image" />
-			<p>
-				I.O.I. is recently gaining fans for their talents and personalities. But as soon as they finally have established a reputation in the entertainment industry, I.O.I. had to bid farewell as the date of their disbandment approaches. I.O.I. performed “Very Very Very” on their final stage as group on KBS Music Bank on Nov. 4.
-			</p> <span class="label label-primary">IOI</span></div>
-			<div class="second">
-			  <div class="page-header">
-				<h1>
-					EXO-CBX <small>Hey!Mama!</small>
-				</h1>
-			</div><img alt="140x140" src="img/CBX.jpg" class="news-image" />
-			<p>
-				EXO-CBX -- composed of Chen, Baekhyun, and Xiumin -- released a mini album on midnight of Monday, Oct. 31 with the title track, "Hey Mama!," as reported by All Kpop. The trio's "Hey Mama!" music video is also gathering a lot of hits -- as of this writing the video is close to four million views on YouTube, less than 24 hours before it was released. The album has a total of five songs which include a combination of pop, disco and funk genres. Other tracks in the album include "The One," "Rhythm After Summer," "Juliet" and "Cherish."
-The unit is scheduled to have their debut stages on Nov. 3 on "M! Countdown," Nov. 4 on "Music Bank," Nov. 5 on "Show! Music Core" and Nov. 6 on "Inkigayo."
-			</p> <span class="label label-primary">CBX</span>
-			<span class="label label-primary">EXO</span>
-			</div>
-			<div class="third">
-			  <div class="page-header">
-				<h1>
-					VIXX <small>Comeback Stage</small>
-				</h1>
-			</div><img alt="140x140" src="img/vixx.jpg" class="news-image" />
-			<p>
-				VIXX expresses their confidence in their ideas for comeback concepts.
-On October 31 at the Yes24 Live Hall in Seoul, the boy group held a showcase event for their third mini-album “Kratos.”
-While discussing their next concept during the showcase, N shares, “We even talked about doing a Tarzan concept. Concepts really come to us without [much effort]. They also come to us while reading comics or watching movies. That’s why we never feel like we’ve run out of ideas.”
-			</p> <span class="label label-primary">VIXX</span>
-			</div>
-			<div class="forth">
-			  <div class="page-header">
-				<h1>
-					Apink<small>The 3rd Album</small>
-				</h1>
-			</div><img alt="140x140" src="img/PinkRevolution.jpg" class="news-image" />
-			<p>
-				Previously on 'Yoo Hee Yeol's Sketchbook', the girls revealed that they came to tears when they first heard their title song for new album 'Pink Revolution'. A Pink elaborated on this moment, explaining, "It was weird feelings. We cried because we were happy and joyful but I think the feelings that piled up while preparing for it just burst out. We worried a lot about when our comeback will be, and how we can remain in our position with what types of music."
-			</p> <span class="label label-primary">Apink</span>
-			</div>
-			<div class="fifth">
-			  <div class="page-header">
-				<h1>
-					2PM Leader<small>First Solo</small>
-				</h1>
-			</div><img alt="140x140" src="img/2pm.jpg" class="news-image" />
-			<p>
-			  On Aug. 8, Monday, Jun. K held a press showcase for his first solo mini-album, titled "Mr. No Love." In the midst of the event, which was simultaneously aired on Naver's V app, the 28-year-old singer-songwriter shared some exciting details about 2PM's comeback.
-			</p> <span class="label label-primary">2PM</span>
-			<span class="label label-primary">Solo</span>
-			</div>
-			<div class="pages">
-			  <ul class="pagination">
-	          <li><a href="#">&laquo;</a></li>
-	          <li class="active"><a href="#">1</a></li>
-	          <li><a href="#">2</a></li>
-	          <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-	          <li><a href="#">&raquo;</a></li>
-              </ul>
+	<div class="topTitle">
+		<div class="logo"><img src="img/logo.png" alt=""/></div>
+		<div id="loginInfo" style="display:none;">
+			<div class="UserInfo" id="info-message">
+				<h5>placeholder</h5>
+				<a href="" id="signOut" class="signOut">Sign Out</a>
 			</div>
 		</div>
-		<div class="col-md-4 column">
-		    <h4>Latest News</h4>
-		    <div class="NewsList">
-			<ol>
-				<li>
-					IOI final stage
-				</li>
-				<li>
-					Mama 2016
-				</li>
-				<li>
-					Pink Revolution 
-				</li>
-				<li>
-					Facilisis in pretium nisl aliquet
-				</li>
-				<li>
-					Nulla volutpat aliquam velit
-				</li>
-				<li>
-					Faucibus porta lacus fringilla vel
-				</li>
-				<li>
-					Aenean sit amet erat nunc
-				</li>
-				<li>
-					Eget porttitor lorem
-				</li>
-			</ol>
+		<div id="loginBtn">
+			<div class="sign">
+				<div class="signIn"><a href="signUp.html">SignIn</a></div>
+				<div class="signUp"><a href="signUp.html">Register</a></div>
 			</div>
 		</div>
-	</div>  
-  </div>
-
+	</div>
+	<div class="background">
+	</div>
+	<div class="navigator">
+		<ul class="nav nav-tabs">
+			<li><a href="homepage.html">Home</a></li>
+			<li class="active"><a href="#">News</a></li>
+			<li><a href="vote.html">Voting</a></li>
+			<li><a href="calendar.html">Calendar</a></li>
+		</ul>
+	</div>
+	<div class="content">
+		<div class="row clearfix">
+			<div class="col-md-8 column">
+				<div class="first" id="newsInUser">
+				</div>
+				<div class="pages">
+					<ul class="pagination">
+						<li><a href="#">&laquo;</a></li>
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">&raquo;</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4 column">
+				<h4>Latest News</h4>
+				<div class="NewsList">
+					<ol>
+						<li>
+							IOI final stage
+						</li>
+						<li>
+							Mama 2016
+						</li>
+						<li>
+							Pink Revolution 
+						</li>
+						<li>
+							Facilisis in pretium nisl aliquet
+						</li>
+						<li>
+							Nulla volutpat aliquam velit
+						</li>
+						<li>
+							Faucibus porta lacus fringilla vel
+						</li>
+						<li>
+							Aenean sit amet erat nunc
+						</li>
+						<li>
+							Eget porttitor lorem
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>  
+	</div>
+    <script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<script src="js/basic.js"></script>
 </body>
 </html>

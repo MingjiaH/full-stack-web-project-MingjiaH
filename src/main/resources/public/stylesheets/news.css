@@ -22,3 +22,11 @@
 .col-md-8{
 	max-width: 80%;
 }
+.first p{
+	font-size: 17px !important;
+}
+.first span{
+    display: inline;
+    font-size: 12px;
+    margin-right: 5px;
+}

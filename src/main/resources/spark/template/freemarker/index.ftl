@@ -5,52 +5,260 @@
 </head>
 
 <body>
-
-  <#include "nav.ftl">
-
-<div class="jumbotron text-center">
+<div class="topTitle">
+    <div class="logo"><img src="img/logo.png" alt=""/></div>
+    <div class="UserInfo" id="info-message">
+      <h5>Welcome Back!&nbsp;&nbsp;${username}&nbsp;&nbsp;&nbsp;</h5>
+      <a href="homepage.html" target="_blank" >Sign Out</a>
+    </div>
+  </div>
+  <div class="background">
+  </div>
+  <div class="navigator">
+    <ul class="nav nav-tabs">
+  <li class="active"><a href="#">Home</a></li>
+  <li><a href="news.html">News</a></li>
+  <li><a href="vote.html">Voting</a></li>
+  <li><a href="calendar.html">Calendar</a></li>
+    </ul>
+  </div>
+  <div class="content">
   <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="/lang-logo.png">
-    </a>
-    <h1>Getting Started with Java on Heroku</h1>
-    <p>This is a sample Java application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
-    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-java"><span class="glyphicon glyphicon-flash"></span> Getting Started with Java</a>
-    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/java-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
-  </div>
-</div>
-<div class="container">
-  <div class="alert alert-info text-center" role="alert">
-    To deploy your own copy, and learn the fundamentals of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-java" class="alert-link">Getting Started with Java on Heroku</a> tutorial.
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
-      <ul>
-        <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/java-getting-started">Heroku Button</a> on the repository.</li>
-
-        <li>When Heroku received the source code, it grabbed all the dependencies in the <a href="https://github.com/heroku/java-getting-started/blob/master/pom.xml">pom.xml</a>.</li>
-        <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
-        <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
-        <li>Check out the <a href="https://devcenter.heroku.com/articles/getting-started-with-java">Getting Started</a> guide to learn more!</li>
-      </ul>
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <div class="carousel slide" id="carousel-349424">
+        <ol class="carousel-indicators">
+          <li data-slide-to="0" data-target="#carousel-349424">
+          </li>
+          <li data-slide-to="1" data-target="#carousel-349424">
+          </li>
+          <li data-slide-to="2" data-target="#carousel-349424" class="active">
+          </li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item">
+            <img alt="" src="img/PinkRevolution.jpg" />
+          </div>
+          <div class="item">
+            <img alt="" src="img/vixx.jpg" />
+          </div>
+          <div class="item active">
+            <img alt="" src="img/ioi.jpg" />
+          </div>
+        </div> <a class="left carousel-control" href="#carousel-349424" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-349424" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+      <div class="row clearfix second">
+        <div class="col-md-7 column">
+        <div class="smallNews">
+          <div class="first">
+        <div class="page-header">
+        <h1>
+          IOI <small>Final Stage</small>
+        </h1>
+      </div><img alt="140x140" src="img/ioi.jpg" class="news-image" />
+      <p>
+        I.O.I. is recently gaining fans for their talents and personalities. But as soon as they finally have established a reputation in the entertainment industry, I.O.I. had to bid farewell as the date of their disbandment approaches. I.O.I. performed “Very Very Very” on their final stage as group on KBS Music Bank on Nov. 4.
+      </p> <span class="label label-primary">IOI</span></div>
+      <div class="second">
+        <div class="page-header">
+        <h1>
+          EXO-CBX <small>Hey!Mama!</small>
+        </h1>
+      </div><img alt="140x140" src="img/CBX.jpg" class="news-image" />
+      <p>
+        EXO-CBX -- composed of Chen, Baekhyun, and Xiumin -- released a mini album on midnight of Monday, Oct. 31 with the title track, "Hey Mama!," as reported by All Kpop. The trio's "Hey Mama!" music video is also gathering a lot of hits -- as of this writing the video is close to four million views on YouTube, less than 24 hours before it was released. The album has a total of five songs which include a combination of pop, disco and funk genres. Other tracks in the album include "The One," "Rhythm After Summer," "Juliet" and "Cherish."
+The unit is scheduled to have their debut stages on Nov. 3 on "M! Countdown," Nov. 4 on "Music Bank," Nov. 5 on "Show! Music Core" and Nov. 6 on "Inkigayo."</p> <span class="label label-primary">CBX</span>
+      <span class="label label-primary">EXO</span>
+      </div>
+      <div class="third">
+        <div class="page-header">
+        <h1>
+          VIXX <small>Comeback Stage</small>
+        </h1>
+      </div><img alt="140x140" src="img/vixx.jpg" class="news-image" />
+      <p>
+        VIXX expresses their confidence in their ideas for comeback concepts.
+On October 31 at the Yes24 Live Hall in Seoul, the boy group held a showcase event for their third mini-album “Kratos.”
+While discussing their next concept during the showcase, N shares, “We even talked about doing a Tarzan concept. Concepts really come to us without [much effort]. They also come to us while reading comics or watching movies. That’s why we never feel like we’ve run out of ideas.”
+      </p> <span class="label label-primary">VIXX</span>
+      </div>
+        </div>  
+          <div class="pages">
+           <ul class="pagination">
+            <li><a href="#">&laquo;</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+           </ul>
+         </div>
+        </div>
+        <div class="col-md-5 column">
+           <div class="box box-primary">
+            <div class="box-body no-padding">
+              <!-- THE CALENDAR -->
+              <div id="calendar" class="fc fc-ltr fc-unthemed">
+              </div>
+            </div>
+            <!-- /.box-body -->
+          </div>   
+        </div>
+      </div>
     </div>
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
-      <ul>
-        <li><a href="https://www.heroku.com/home">Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-java">Getting Started with Java on Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/deploying-java">Deploying Java Apps on Heroku</a></li>
-      </ul>
-    </div>
-  </div> <!-- row -->
-   <div class="alert alert-info text-center" role="alert">
-    Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.
   </div>
+</div>  
 </div>
+<script>
+  $(function () {
 
+    /* initialize the external events
+     -----------------------------------------------------------------*/
+    function ini_events(ele) {
+      ele.each(function () {
+
+        // create an Event Object (http://arshaw.com/fullcalendar/docs/event_data/Event_Object/)
+        // it doesn't need to have a start or end
+        var eventObject = {
+          title: $.trim($(this).text()) // use the element's text as the event title
+        };
+
+        // store the Event Object in the DOM element so we can get to it later
+        $(this).data('eventObject', eventObject);
+
+        // make the event draggable using jQuery UI
+        $(this).draggable({
+          zIndex: 1070,
+          revert: true, // will cause the event to go back to its
+          revertDuration: 0  //  original position after the drag
+        });
+
+      });
+    }
+
+    ini_events($('#external-events div.external-event'));
+
+    /* initialize the calendar
+     -----------------------------------------------------------------*/
+    //Date for the calendar events (dummy data)
+    var date = new Date();
+    var d = date.getDate(),
+        m = date.getMonth(),
+        y = date.getFullYear();
+    $('#calendar').fullCalendar({
+      header: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'month,agendaWeek,agendaDay'
+      },
+      buttonText: {
+        today: 'today',
+        month: 'month',
+        week: 'week',
+        day: 'day'
+      },
+      //Random default events
+      events: [
+        {
+          title: 'Music Bank',
+          start: new Date(y, m, 1),
+          backgroundColor: "#f56954", //red
+          borderColor: "#f56954" //red
+        },
+        {
+          title: 'Comeback Stage',
+          start: new Date(y, m, d - 5),
+          end: new Date(y, m, d - 2),
+          backgroundColor: "#f39c12", //yellow
+          borderColor: "#f39c12" //yellow
+        },
+        {
+          title: 'Mnet',
+          start: new Date(y, m, d, 10, 30),
+          allDay: false,
+          backgroundColor: "#0073b7", //Blue
+          borderColor: "#0073b7" //Blue
+        },
+        {
+          title: 'MAMA',
+          start: new Date(y, m, d, 12, 0),
+          end: new Date(y, m, d, 14, 0),
+          allDay: false,
+          backgroundColor: "#00c0ef", //Info (aqua)
+          borderColor: "#00c0ef" //Info (aqua)
+        },
+        {
+          title: 'Birthday Party',
+          start: new Date(y, m, d + 1, 19, 0),
+          end: new Date(y, m, d + 1, 22, 30),
+          allDay: false,
+          backgroundColor: "#00a65a", //Success (green)
+          borderColor: "#00a65a" //Success (green)
+        }
+      ],
+      editable: true,
+      droppable: true, // this allows things to be dropped onto the calendar !!!
+      drop: function (date, allDay) { // this function is called when something is dropped
+
+        // retrieve the dropped element's stored Event Object
+        var originalEventObject = $(this).data('eventObject');
+
+        // we need to copy it, so that multiple events don't have a reference to the same object
+        var copiedEventObject = $.extend({}, originalEventObject);
+
+        // assign it the date that was reported
+        copiedEventObject.start = date;
+        copiedEventObject.allDay = allDay;
+        copiedEventObject.backgroundColor = $(this).css("background-color");
+        copiedEventObject.borderColor = $(this).css("border-color");
+
+        // render the event on the calendar
+        // the last `true` argument determines if the event "sticks" (http://arshaw.com/fullcalendar/docs/event_rendering/renderEvent/)
+        $('#calendar').fullCalendar('renderEvent', copiedEventObject, true);
+
+        // is the "remove after drop" checkbox checked?
+        if ($('#drop-remove').is(':checked')) {
+          // if so, remove the element from the "Draggable Events" list
+          $(this).remove();
+        }
+
+      }
+    });
+
+    /* ADDING EVENTS */
+    var currColor = "#3c8dbc"; //Red by default
+    //Color chooser button
+    var colorChooser = $("#color-chooser-btn");
+    $("#color-chooser > li > a").click(function (e) {
+      e.preventDefault();
+      //Save color
+      currColor = $(this).css("color");
+      //Add color effect to button
+      $('#add-new-event').css({"background-color": currColor, "border-color": currColor});
+    });
+    $("#add-new-event").click(function (e) {
+      e.preventDefault();
+      //Get value and make sure it is not null
+      var val = $("#new-event").val();
+      if (val.length == 0) {
+        return;
+      }
+
+      //Create events
+      var event = $("<div />");
+      event.css({"background-color": currColor, "border-color": currColor, "color": "#fff"}).addClass("external-event");
+      event.html(val);
+      $('#external-events').prepend(event);
+
+      //Add draggable funtionality
+      ini_events(event);
+
+      //Remove event from text input
+      $("#new-event").val("");
+    });
+  });
+</script>    
 
 </body>
 </html>

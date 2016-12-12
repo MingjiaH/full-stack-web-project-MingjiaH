@@ -4,7 +4,6 @@ body{
 	min-height:100%;
 }
 .content{
-	width:50%;
 	text-align:center;
 	margin-left:auto;
 	margin-right:auto;
@@ -23,6 +22,7 @@ body{
 }
 .inputContent div{
 	height:60px;
+	margin-bottom: 10px;
 }
 .register input{
 	height:50px;
@@ -31,15 +31,17 @@ body{
 	width:100%;
 	width:330px;
 }
-.userName{
+.emailContent{
+	width:100%;
+	width:330px;
+}
+.input{
 	margin-bottom: 10px;
 }
 .userName .first-name{
 	width: 330px;
 }
-.userName .second-name{
-	width: 330px;
-}
+
 .register button{
 	height:30px;
 	width:100px;
@@ -52,26 +54,11 @@ body{
 	height:50px;
 	margin-top:20px;
 }
-.gender{
-	height:30px !important;
-}
-.gender form{
-	height:30px;
-	margin-top:10px;
-}
-.gender input{
-	height:15px;
-}
-.female{
-	display:inline;
-	margin-left:0px !important;
-	margin-right: 70px;
-}
-.gender h4{
-	margin-left:10px;
-}
-.male{
-	display:inline;
+select{
+	height: 40px;
+	vertical-align: middle;
+	width: 330px;
+	margin-bottom: 10px;
 }
 h4{
 	display:inline;
@@ -83,8 +70,31 @@ h4{
 	height:30px;
 	margin-top:10px;
 }
-
 h1{
     text-align:center;
+}
+.SignIn .userName{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.SignIn .forgetPswd{
+	text-align:left;
+	margin-top: 10px;
+	margin-left: 13px;
+}
+.SignIn .rememberMe{
+	text-align:left;
+	margin-top: 10px;
+	margin-left: 13px;
+}
+.SignIn button{
+	width:150px;
+}
+.rememberMe input{
+	height:15px !important;
+}
+.SignIn input{
+	height:50px;
+
 }
 
