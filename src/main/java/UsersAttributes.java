@@ -76,7 +76,8 @@ public class UsersAttributes{
       session.attribute("secondStar", u.getsecondStar());
       return data;
     }, gson::toJson);
-    
+   
+
     //index page to render
     get("/index", (req, res) -> {
       HashMap<String, Object> attributes = new HashMap<>();

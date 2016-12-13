@@ -30,6 +30,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.UUID;
+import java.util.Date;
 
 
 public class XmlUtils {
@@ -52,8 +53,10 @@ public class XmlUtils {
                         Element groupNews = doc.createElement("news");
                         UUID newsId= UUID.randomUUID(); 
                         UUID userId= UUID.randomUUID(); 
+                        Date date = new Date();
                         addChildElement(doc, groupNews, "newsId", newsId.toString());
                         addChildElement(doc, groupNews, "userId", userId.toString());
+                        addChildElement(doc, groupNews, "date", date.toString());
                         addChildElement(doc, groupNews, "firstTitle", interEntry.getValue().getFirstTitle());
                         addChildElement(doc, groupNews, "secondTitle", interEntry.getValue().getSecondTitle());
                         addChildElement(doc, groupNews, "content", interEntry.getValue().getContent());
@@ -77,8 +80,10 @@ public class XmlUtils {
                         Element groupNews = doc.createElement("news");
                         UUID newsId= UUID.randomUUID(); 
                         UUID userId= UUID.randomUUID(); 
+                        Date date = new Date();
                         addChildElement(doc, groupNews, "newsId", newsId.toString());
                         addChildElement(doc, groupNews, "userId", userId.toString());
+                        addChildElement(doc, groupNews, "date", date.toString());
                         addChildElement(doc, groupNews, "firstTitle", interEntry.getValue().getFirstTitle());
                         addChildElement(doc, groupNews, "secondTitle", interEntry.getValue().getSecondTitle());
                         addChildElement(doc, groupNews, "content", interEntry.getValue().getContent());

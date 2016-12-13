@@ -9,6 +9,7 @@
                     <xs:sequence>
                         <xs:element name="newsId" type="UUID" />
                         <xs:element name="userId" type="UUID" />
+                        <xs:element name="date" type="xs:string" />
                         <xs:element name="firstTitle" type="xs:string" />
                         <xs:element name="secondTitle" type="xs:string" />
                         <xs:element name="content" type="xs:string" />
